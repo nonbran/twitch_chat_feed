@@ -1,5 +1,5 @@
 from script.login import reader
-chats_to_watch = []
+chats_to_watch = ['sodapoppin']
 reader.listen(channels=chats_to_watch,
-              duration=15)
+              duration=900)
 pass
