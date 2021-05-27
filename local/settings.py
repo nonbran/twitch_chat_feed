@@ -1,5 +1,6 @@
 from configparser import RawConfigParser
-from constant.filename import dn_settings, fn_secrets, fn_settings
+from constant.filename import fn_secrets, fn_settings
+from constant.pathname import dn_settings
 from os import getcwd
 from os import stat
 from os.path import exists
